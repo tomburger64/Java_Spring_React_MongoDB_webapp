@@ -13,8 +13,5 @@ public class MoviesApplication {
 		SpringApplication.run(MoviesApplication.class, args);
 	}
 
-	@GetMapping("/root")
-	public String apiRoot() {
-		return "<h1 style='color:red;'>YOOOOO</h1>";
-	}
+
 }
